@@ -1,0 +1,19 @@
+.baner-cover{
+    background-color: rgba(0, 0, 0, 0.37);
+    background-image: url(cover.jpg) ;
+    background-repeat: none ;
+    background-size: cover;
+
+}
+.layer-of-black{
+    background: rgba(0, 0, 0, 0.718);
+}
+
+img{
+    
+    height: 300px !important;
+}
+
+.card{
+    width: 350px !important;
+}

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crecket Match</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-slate-900">
+    <header class="">
+      <div class="baner-cover">
+        <div class="layer-of-black">
+          <h1 class="font-black text-center text-6xl pt-40 text-orange-300">
+           South Asia Cricket Match
+          </h1>
+          <h2 class="text-2xl font-bold text-center pt-8 text-white">
+            5 to 5
+          </h2>
+          <p
+            class="text-3xl pb-40 w-6/12 mx-auto  text-center pt-8 text-white"
+          >
+          Here you can chose 5 player for your team and join to your match. but you can seleced only 5 player to make your team.
+          and you can set team manager and Coch selary. So, let began to make your team and start playing. Thank you.
+
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main section  -->
+
+    <main
+      class="my-20 ml-3 md:ml-10 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"
+    >
+      <!-- Card sectoin  -->
+
+      <section class="md:col-span-2">
+        <div
+          style="justify-content: center"
+          class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+        >
+          <!-- Card 1 -->
+          <div class="card bg-green-700 mb-10">
+            <figure class="">
+              <img
+                class="bg-green-700 rounded-xl w-full"
+                src="Virat-Kohli.png"
+                alt=""
+              />
+            </figure>
+            <div class="my-3 text-center">
+              <h2 class="mt-2 text-2xl text-white font-black text-center">
+                Virat Koheli
+              </h2>
+           
+              <button
+                onclick="selectBtn(this)"
+                class="text-white bg-slate-900 px-10 py-2 rounded-lg mt-4 border-2"
+              >
+                Select
+              </button>
+            </div>
+          </div>
+          <!-- Card 1  end-->
+
+          <!-- Card 2 -->
+          <div class="card bg-green-700 mb-10">
+            <figure class="">
+              <img
+                class="bg-green-700 rounded-xl w-full"
+                src="Babar-Azam.png"
+                alt=""
+              />
+            </figure>
+            <div class="my-3 text-center">
+              <h2 class="mt-2 text-2xl text-white font-black text-center">
+                Babor Azom
+              </h2>
+              
+              <button
+                onclick="selectBtn(this)"
+                class="text-white bg-slate-900 px-10 py-2 rounded-lg mt-4 border-2"
+              >
+                Select
+              </button>
+            </div>
+          </div>
+          <!-- Card 2  end-->
+          <!-- Card 3 -->
+          <div class="card bg-green-700 mb-10">
+            <figure class="">
+              <img
+                class="bg-green-700 rounded-xl w-full"
+                src="sakib-al-ahsan.png"
+                alt=""
+              />
+            </figure>
+            <div class="my-3 text-center">
+              <h2 class="mt-2 text-2xl text-white font-black text-center">
+                Sakib Al Hasan
+              </h2>
+              
+              <button
+                onclick="selectBtn(this)"
+                class="text-white bg-slate-900 px-10 py-2 rounded-lg mt-4 border-2"
+              >
+                Select
+              </button>
+            </div>
+          </div>
+          <!-- Card 3  end-->
+
+          <!-- Card 4 -->
+          <div class="card bg-green-700 mb-10">
+            <figure class="">
+              <img
+                class="bg-green-700 rounded-xl w-full"
+                src="Rishabh Rajendra Pant.png"
+                alt=""
+              />
+            </figure>
+            <div class="my-3 text-center">
+              <h2 class="mt-2 text-2xl text-white font-black text-center">
+                Risav Pant
+              </h2>
+              
+              <button
+                onclick="selectBtn(this)"
+                class="text-white bg-slate-900 px-10 py-2 rounded-lg mt-4 border-2"
+              >
+                Select
+              </button>
+            </div>
+          </div>
+          <!-- Card 4  end-->
+
+          <!-- Card 5 -->
+          <div class="card bg-green-700 mb-10">
+            <figure class="">
+              <img
+                class="bg-green-700 rounded-xl w-full"
+                src="Quinton-de-Kock.png"
+                alt=""
+              />
+            </figure>
+            <div class="my-3 text-center">
+              <h2 class="mt-2 text-2xl text-white font-black text-center">
+                Quient de Cock
+              </h2>
+              
+              <button
+                onclick="selectBtn(this)"
+                class="text-white bg-slate-900 px-10 py-2 rounded-lg mt-4 border-2"
+              >
+                Select
+              </button>
+            </div>
+          </div>
+          <!-- Card 5  end-->
+
+          <!-- Card 6 -->
+          <div class="card bg-green-700 mb-10">
+            <figure class="">
+              <img
+                class="bg-green-700 rounded-xl w-full"
+                src="rohit-sharma.png"
+                alt=""
+              />
+            </figure>
+            <div class="my-3 text-center">
+              <h2 class="mt-2 text-2xl text-white font-black text-center">
+                Rohit Sorma
+              </h2>
+              
+              <button
+                onclick="selectBtn(this)"
+                class="text-white bg-slate-900 px-10 py-2 rounded-lg mt-4 border-2"
+              >
+                Select
+              </button>
+            </div>
+          </div>
+          <!-- Card 6  end-->
+        </div>
+      </section>
+
+      <!-- Budget Sectin  -->
+
+      <section class="md:col-span-2 lg:col-span-1">
+        <div class="bg-slate-800 md:ml-2 mr-2 md:mr-12 rounded-lg pb-10">
+          <h2 class="text-white text-4xl font-bold pb-10 pt-8 text-center">
+            Select - Player
+          </h2>
+          <div id="Player-select" class="h-80 flex flex-col"></div>
+        </div>
+        <div
+          class="bg-slate-800 md:ml-2 mr-2 md:mr-12 rounded-lg pb-10 mt-12 h-ful text-center"
+        >
+          <h2 class="text-white text-4xl font-bold pb-20 pt-10 text-center">
+            Budget
+          </h2>
+          <div class="flex justify-evenly gap-10 px-5">
+            <h2 class="text-slate-400 text-2xl">Per Player</h2>
+            <input
+              class="px-6 py-3 ml-30 mr-12 bg-slate-800 text-white border-2 text-xl rounded-xl"
+              type="text"
+              name=""
+              id="player-budget"
+              placeholder="Enter Your budget"
+            />
+          </div>
+          <button
+            id="player-cost"
+            class="text-2xl mt-8 bg-blue-600 text-white py-4 px-20 w-10/12"
+          >
+            Match Cost
+          </button>
+
+          <div class="flex justify-evenly">
+            <h2 class="text-slate-400 text-2xl text-left mt-12 mb-12">
+              Total Match Cost
+            </h2>
+            <h2 class="text-red-400 text-3xl text-left mt-12 mb-12 font-medium">
+              $<span id="Player-total-cost">00</span>
+            </h2>
+          </div>
+          <div class="flex justify-evenly gap-10 px-5">
+            <h2 class="text-slate-400 text-2xl">Manager</h2>
+            <input
+              id="manager-cost"
+              class="px-6 py-3 bg-slate-800 text-white border-2 text-xl rounded-xl"
+              type="text"
+              name=""
+              placeholder="Enter manager budget"
+            />
+          </div>
+          <div class="flex justify-evenly gap-10 px-5 mt-3">
+            <h2 class="text-slate-400 text-2xl">Choch</h2>
+            <input
+              id="coach-cost"
+              class="px-6 py-3 ml-12 bg-slate-800 text-white border-2 text-xl rounded-xl"
+              type="text"
+              name=""
+              placeholder="Enter Coach budget"
+            />
+          </div>
+          <button
+            id="total-cost"
+            class="text-2xl mt-8 bg-blue-600 text-white py-4 px-20 w-10/12"
+          >
+            Total Cost
+          </button>
+          <div class="flex justify-around">
+            <h2 class="text-slate-400 text-2xl text-left mt-12 mb-12">Total</h2>
+            <h2 class="text-3xl mt-12 mb-1 text-red-400 font-medium">
+              $<span id="in-Total-Cost" class="text-3xl mt-12 mb-12">00</span>
+            </h2>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/common.js"></script>
+    <script src="js/playerSelect.js"></script>
+    <script src="js/Manger&Coch.js"></script>
+
+    <footer class="bg-black">
+      <hr class="opacity-40" />
+      <h3 class="text-white text-center py-11">
+        Copyright @ 2022 All Rights Reserved.
+      </h3>
+    </footer>
+  </body>
+</html>
